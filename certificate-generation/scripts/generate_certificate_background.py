@@ -11,25 +11,18 @@ OpenAI.api_key = api_key
 
 # Define your prompt
 prompt = """
-You are working on a project to generate certificate templates using the DALL·E model. The goal is to create a visually appealing and customizable design that can be used for various certificate types.
+Design a certificate template which includes placeholders for the recipient's name, the date, and a logo. 
 
-Prompt:
-Design a certificate template using the DALL·E model. The template should include placeholders for the recipient's name, the date, and a logo. The placeholders should be visually distinct and easily identifiable. The overall design should be professional and elegant. Consider incorporating decorative elements, borders, and appropriate typography. Provide options for different color schemes and layout variations. The generated template should be in a high-resolution image format (e.g., PNG) suitable for printing.
-
-Specifications:
-- Placeholder for recipient's name: <<NAME>>
-- Placeholder for the date: <<DATE>>
-- Placeholder for the logo: '..assets/images/logo.png'
-- Placeholder for the Signiture: <<SIGNITURE>>
-- Visual distinctiveness: Ensure the placeholders stand out from the rest of the design.
-- Professional and elegant design: Incorporate appropriate decorative elements, borders, and typography.
-- Color schemes and layout variations: Provide options for different color schemes and layout variations to accommodate various certificate types.
-- High-resolution image format: Generate the template as a high-resolution image suitable for printing, such as PNG.
+Make sure to include the following no matter what:
+- Placeholder for recipient's name as: <<NAME>>
+- Placeholder for the date as: <<DATE>>
+- Placeholder for the logo as: ![Logo Placeholder Image](https://github.com/natybkl/AlgoCertify-dApp-NFT/blob/feature/certificate-generation/certificate-generation/assets/images/logo.png)
+- Placeholder for the Signiture as : <<SIGNITURE>>
 
 Example:
-![Certificate Template Example]('../assets/images/Certificate Template.png')
+![Certificate Template Example](https://github.com/natybkl/AlgoCertify-dApp-NFT/blob/feature/certificate-generation/certificate-generation/assets/images/Certificate%20Template.png)
 
-Please generate a certificate template based on the provided specifications. Make sure to incorporate the necessary placeholders and design elements. Feel free to be creative and provide multiple design options if possible.
+Please generate a certificate template based on the provided specifications. Browse the links provided before generating the image.
 """
 
 # Assuming you have an instance of OpenAI named 'client'
