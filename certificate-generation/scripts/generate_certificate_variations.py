@@ -22,7 +22,7 @@ with open(base_image_filename, "rb") as image_file:
 response = client.images.create_variation(
     image=base_image,
     n=5,  # Number of variations to generate
-    size="1792x1024"  # Maintain the same size as the base image
+    size="1024x1024"  # Maintain the same size as the base image
 )
 
 # Save the variations

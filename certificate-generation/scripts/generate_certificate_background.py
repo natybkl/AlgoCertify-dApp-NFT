@@ -11,10 +11,25 @@ OpenAI.api_key = api_key
 
 # Define your prompt
 prompt = """
-Generate a professional and clean certificate template.  
-The certificate should have enough space for the recipient's Full Name, a Logo, Date. 
-The design should feature a space for a logo at the top, followed by a central header stating "Certificate of Achievement." Below the header, include areas for the recipient's Full Name and the achieved Description. 
-Provide a section for the Date and a Signature line at the bottom.
+You are working on a project to generate certificate templates using the DALL·E model. The goal is to create a visually appealing and customizable design that can be used for various certificate types.
+
+Prompt:
+Design a certificate template using the DALL·E model. The template should include placeholders for the recipient's name, the date, and a logo. The placeholders should be visually distinct and easily identifiable. The overall design should be professional and elegant. Consider incorporating decorative elements, borders, and appropriate typography. Provide options for different color schemes and layout variations. The generated template should be in a high-resolution image format (e.g., PNG) suitable for printing.
+
+Specifications:
+- Placeholder for recipient's name: <<NAME>>
+- Placeholder for the date: <<DATE>>
+- Placeholder for the logo: '..assets/images/logo.png'
+- Placeholder for the Signiture: <<SIGNITURE>>
+- Visual distinctiveness: Ensure the placeholders stand out from the rest of the design.
+- Professional and elegant design: Incorporate appropriate decorative elements, borders, and typography.
+- Color schemes and layout variations: Provide options for different color schemes and layout variations to accommodate various certificate types.
+- High-resolution image format: Generate the template as a high-resolution image suitable for printing, such as PNG.
+
+Example:
+![Certificate Template Example]('../assets/images/Certificate Template.png')
+
+Please generate a certificate template based on the provided specifications. Make sure to incorporate the necessary placeholders and design elements. Feel free to be creative and provide multiple design options if possible.
 """
 
 # Assuming you have an instance of OpenAI named 'client'
