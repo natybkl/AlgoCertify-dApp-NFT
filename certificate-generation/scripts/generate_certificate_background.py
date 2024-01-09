@@ -11,10 +11,10 @@ OpenAI.api_key = api_key
 
 # Define your prompt
 prompt = """
-Generate a beautiful and professional certificate base background suitable for acknowledging achievements. 
-The design should incorporate elegant graphics, a subtle color palette, and a clean layout. 
-The certificate should have space for the recipient's Full Name, a Logo, Date, and other relevant information. 
-The overall style should convey a sense of accomplishment and formality.
+Generate a professional and clean certificate template.  
+The certificate should have enough space for the recipient's Full Name, a Logo, Date. 
+The design should feature a space for a logo at the top, followed by a central header stating "Certificate of Achievement." Below the header, include areas for the recipient's Full Name and the achieved Description. 
+Provide a section for the Date and a Signature line at the bottom.
 """
 
 # Assuming you have an instance of OpenAI named 'client'
