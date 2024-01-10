@@ -11,6 +11,8 @@ OpenAI.api_key = api_key
 
 # Define your prompt
 prompt = """
+I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS.
+
 Design a certificate template which includes placeholders for the recipient's name, the date, and a logo. 
 
 Make sure to include the following no matter what:
