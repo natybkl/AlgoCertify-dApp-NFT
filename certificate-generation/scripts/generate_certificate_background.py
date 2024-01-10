@@ -13,18 +13,11 @@ OpenAI.api_key = api_key
 prompt = """
 I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS.
 
-Design a certificate template which includes placeholders for the recipient's name, the date, and a logo. 
-
-Make sure to include the following no matter what:
-- Placeholder for recipient's name as: <<NAME>>
-- Placeholder for the date as: <<DATE>>
-- Placeholder for the logo as: ![Logo Placeholder Image](https://github.com/natybkl/AlgoCertify-dApp-NFT/blob/feature/certificate-generation/certificate-generation/assets/images/logo.png)
-- Placeholder for the Signiture as : <<SIGNITURE>>
+Design a certificate template which have enough space for the recipient's name, the date, and a logo. It should be light red and white themed. 
 
 Example:
 ![Certificate Template Example](https://github.com/natybkl/AlgoCertify-dApp-NFT/blob/feature/certificate-generation/certificate-generation/assets/images/Certificate%20Template.png)
 
-Please generate a certificate template based on the provided specifications. Browse the links provided before generating the image.
 """
 
 # Assuming you have an instance of OpenAI named 'client'
