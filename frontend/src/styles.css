@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    margin-right: 20px;
+    background-color: #ffcccc; /* Light red */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .content {
+    flex: 1;
+    background-color: #ffffff; /* White */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .trainee-btn {
+    background-color: #ff9999; /* Lighter red for Trainee button */
+    color: #ffffff;
+  }
+  
+  .staff-btn {
+    background-color: #ffcccc; /* Light red for Staff button */
+    color: #ffffff;
+  }
+  
+  .back-btn {
+    background-color: #ff9999; /* Lighter red for Back button */
+    color: #ffffff;
+  }
+  
+  /* Add more styling as needed */
+  
