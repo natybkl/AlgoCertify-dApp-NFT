@@ -1,3 +1,5 @@
 # Ignore .env file
 .env
 node_modules
+package-lock
+package
