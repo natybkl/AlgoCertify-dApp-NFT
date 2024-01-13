@@ -1,21 +1,9 @@
-# Core dependencies
 algosdk==1.15.1  # Algorand SDK for Python
-openai==0.15.0   # OpenAI API client for Python
 react==18.2.0    # React library
-
-# Additional dependencies for OpenAI API
-requests==2.28.1  # For making HTTP requests
-
-# Additional dependencies for Algorand interaction
-py-algorand-sdk==1.15.1  # Python Algorand SDK
-pandas==1.5.4  # For data manipulation (optional, if needed for Algorand data processing)
-
-# Additional dependencies for React development
-react-dom==18.2.0  # React DOM library
-webpack-cli==4.10.0  # Webpack command-line interface (for building React app)
-babel-loader==9.1.0  # Babel loader for Webpack (for transpiling JSX)
-
-# Additional dependencies (optional, based on your project needs)
-numpy==1.25.1  # For numerical computations
-matplotlib==3.6.2  # For data visualization
-scikit-learn==1.2.0  # For machine learning
+openai==1.7.0
+python-dotenv==1.0.0
+opencv-python==4.9.0.80
+requests==2.31.0
+Pillow==10.2.0
+pytest==7.4.4
+py-algorand-sdk==2.5.0
